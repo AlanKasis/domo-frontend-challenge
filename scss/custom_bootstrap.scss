@@ -1,0 +1,108 @@
+@import "~bootstrap/scss/functions";
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+//Theme variables
+$blue: #3871FF;
+$gray: #283345;
+
+// Default variable overrides
+$body-bg: $gray;
+$enable-negative-margins: true;
+
+//Height
+.h-4rem {
+    height: 4rem !important;
+}
+
+//Font
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+//Width
+.w-60 {
+    width: 60% !important;
+}
+
+.w-4rem {
+    width: 4rem !important;
+}
+
+.w-49 {
+    width: 49% !important;
+}
+
+.w-40 {
+    width: 40% !important;
+}
+
+.w-30 {
+    width: 30% !important;
+}
+
+//Z-index
+.z-50 {
+    z-index: 50;
+}
+
+//Filter
+.invert-100 {
+    filter: invert(100%)
+}
+
+//Color
+.text-gray {
+    color: #9399A2 !important;
+}
+
+.text-light-gray {
+    color: #9BB8FF !important;
+}
+
+//Line Height
+.lh-2rem {
+    line-height: 2.5rem !important;
+}
+
+//Margin
+.mt-n5 {
+    margin-top: -5rem !important;
+}
+
+.mb-n5 {
+    margin-bottom: -5rem !important;
+}
+
+//Position
+.bottom-n3 {
+    bottom: -3rem;
+}
+
+//Background Image
+.bg-image {
+    height: 50vh;
+}
+
+@media only screen and (min-width: 768px) {
+    .bg-image {
+        height: 100vh;
+    }
+}
+
+
+//Required
+@import "~bootstrap/scss/variables";
+@import '~bootstrap/scss/variables-dark';
+@import "~bootstrap/scss/mixins";
+
+//Optional
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/maps";
+@import '~bootstrap/scss/utilities';

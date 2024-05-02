@@ -1,0 +1,17 @@
+[
+  {
+    "iconSrc": "/document.png",
+    "title": "Business & Product Concept",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  },
+  {
+    "iconSrc": "/development.png",
+    "title": "Web & Mobile Development",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  },
+  {
+    "iconSrc": "/pencil.png",
+    "title": "UX & UI Design",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  }
+]
